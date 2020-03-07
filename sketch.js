@@ -76,7 +76,7 @@ function draw() {
 
     if (mouseY>750)
   {i = mouseX 
- j = mouseY -750
+ j = mouseY -400
   } 
 if (moovf == true) {
 
