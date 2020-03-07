@@ -1,3 +1,5 @@
+sc = 0
+w = 400
 var canvas
 dx = 0
 enx = 0
@@ -99,4 +101,10 @@ ellipse(200,200,10)
   fill('null')
 text(mouseX,10,10)
   text(mouseY,10,30)
+if (w<0)
+ exit()
+ 
+  Rect(0, 0, w, 20)
+  w=w-.1
+
 }
