@@ -45,3 +45,60 @@ if (e1<200 && e3>200 &&e2<200 && e4>200)
 //}
 
 
+function keyPressed() {
+  if ((key == 'w') || (key == 'W')) {
+    moovf = true
+  }
+ if ((key == 's') || (key == 'S')) 
+  {
+    moovb = true
+  }
+}
+function keyReleased() {
+  if ((key == 'W') || (key == 'w')) {
+    moovf = false
+  }
+if ((key == 'S') || (key == 's')) {
+    moovb = false
+  }
+}
+
+function mouseMoved()
+{
+
+}
+function draw() {
+  background(220);
+
+  fill(299)
+
+    if (mouseY>450)
+  {i = mouseX 
+ j = mouseY -400
+  } 
+if (moovf == true) {
+
+   dx = dx+1
+ dy = dy+1
+
+}
+  if (moovb == true) {
+
+   dx = dx-1
+ dy = dy-1
+
+}
+  rect(i,j, 30+dx, 40+dy)
+line(0, 0, i, j)
+  line(0, 400, i, j + 40+dy)
+ line(400, 400, i + 30+dx, j + 40+dy)
+ line(400, 0, i + 30+dx, j)
+  image(enemy,i-100+enx,j ,50+dx+gpy,100+dy+gpy)
+image(gun,270,270,130,130)
+ellipse(200,200,10)
+  fill('null')
+text(mouseX,10,10)
+  text(mouseY,10,30)
+}
+
+
