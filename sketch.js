@@ -8,14 +8,14 @@ let moovb = false
 function setup() {
   
 canvas =  createCanvas(400, 400);
-  //canvas.position(00,40)
+  canvas.position(300,40)
  
   
   gun = loadImage('1578401526169.png')
 enemy = loadImage('enemy.png')
 noCursor()
  button = createButton('shoot');
-  button.position(0,410);
+  button.position(300,410);
   button.size(50,30)
   button.mousePressed(shoot);
 }
