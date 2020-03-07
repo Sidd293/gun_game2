@@ -1,3 +1,4 @@
+sco = 0
 var canvas
 dx = 0
 enx = 0
@@ -38,6 +39,7 @@ if (e1<200 && e3>200 &&e2<200 && e4>200)
 { 
   gpy = random (1,100)
   enx = random(50,gpy*5)
+  sco = sco+1
 }
   
 
@@ -99,6 +101,7 @@ ellipse(200,200,10)
   fill('null')
 text(mouseX,10,10)
   text(mouseY,10,30)
+text ('score-"+sco,340,40)
 }
 
 
