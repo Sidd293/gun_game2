@@ -8,7 +8,7 @@ let moovb = false
 function setup() {
   
 canvas =  createCanvas(400, 400);
-  //canvas.position(00,40)
+  canvas.position(250,40)
  
   
   gun = loadImage('1578401526169.png')
