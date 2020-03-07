@@ -101,7 +101,7 @@ ellipse(200,200,10)
   fill('null')
 text(mouseX,10,10)
   text(mouseY,10,30)
-text ('score-"+sco,340,40)
+text ('score-'+sco,340+250,40)
 }
 
 
