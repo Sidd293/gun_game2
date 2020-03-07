@@ -40,6 +40,7 @@ if (e1<200 && e3>200 &&e2<200 && e4>200)
 { 
   gpy = random (1,100)
   enx = random(50,gpy*5)
+sc = sc+1
 }
   
 
@@ -106,5 +107,5 @@ if (w<0)
  
   Rect(0, 0, w, 20)
   w=w-.1
-
+text('SCORE'+sc,320,40)
 }
