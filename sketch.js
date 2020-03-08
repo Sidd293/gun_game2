@@ -113,8 +113,7 @@ fill(225,0,0)
 //    break;
 //      }
 text ('score-'+sco,340,40)
-if (ly<0)
-    exit()
+
 }
 
 
