@@ -105,9 +105,11 @@ text(mouseX,10,10)
 fill(225,0,0)
   rect(0,385,ly,15)
   ly=ly-.3
-  fill(0)
+  fill(48)
   if(ly<0) 
+    {
     break;
+      }
 text ('score-'+sco,340,40)
 }
 
