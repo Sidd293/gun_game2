@@ -106,7 +106,11 @@ text(mouseX,10,10)
   text(mouseY,10,30)
 fill(225,0,0)
   rect(0,385,ly,15)
-  ly=ly-1*0.01.*sco
+  ly=ly-.1
+  
+  
+  
+  
   fill(48)
 
 
