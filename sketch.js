@@ -17,7 +17,7 @@ canvas =  createCanvas(400, 400);
 enemy = loadImage('enemy.png')
 noCursor()
  button = createButton('shoots');
-  button.position(400,40);
+  button.position(400,450);
   button.size(100,40)
   button.mousePressed(shoot);
 }
@@ -106,7 +106,7 @@ text(mouseX,10,10)
   text(mouseY,10,30)
 fill(225,0,0)
   rect(0,385,ly,15)
-  ly=ly-.1
+  ly=ly-.1*sco/100
   
   
   
