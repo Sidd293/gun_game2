@@ -108,10 +108,8 @@ fill(225,0,0)
   rect(0,385,ly,15)
   ly=ly-1*0.01.*sco
   fill(48)
- // if(ly<0) 
-//    {
-//    break;
-//      }
+
+
 text ('score-'+sco,340,40)
 
 }
