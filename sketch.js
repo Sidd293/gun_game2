@@ -15,7 +15,7 @@ canvas =  createCanvas(400, 400);
   gun = loadImage('1578401526169.png')
 enemy = loadImage('enemy.png')
 noCursor()
- button = createButton('shoot');
+ button = createButton('shoots');
   button.position(0,410);
   button.size(50,30)
   button.mousePressed(shoot);
