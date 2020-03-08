@@ -1,3 +1,4 @@
+ly=400
 sco = 0
 var canvas
 dx = 0
@@ -101,6 +102,8 @@ ellipse(200,200,10)
   fill('null')
 text(mouseX,10,10)
   text(mouseY,10,30)
+  rect(0,380,ly,20)
+  ly=ly-.3
 text ('score-'+sco,340,40)
 }
 
