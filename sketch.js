@@ -111,7 +111,7 @@ text(mouseX,10,10)
   text(mouseY,10,30)
 fill(225,0,0)
   rect(0,385,ly,15)
-  ly=ly-sco/90
+  ly=ly-sco/30
   
   
   
