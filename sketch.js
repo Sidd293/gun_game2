@@ -41,6 +41,8 @@ if (e1<200 && e3>200 &&e2<200 && e4>200)
   gpy = random (1,100)
   enx = random(50,gpy*5)
   sco = sco+1
+  ly=400
+  
 }
   
 
@@ -104,7 +106,7 @@ text(mouseX,10,10)
   text(mouseY,10,30)
 fill(225,0,0)
   rect(0,385,ly,15)
-  ly=ly-.3
+  ly=ly-1
   fill(48)
  // if(ly<0) 
 //    {
