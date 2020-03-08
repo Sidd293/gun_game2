@@ -120,6 +120,9 @@ fill(225,0,0)
 
 
 text ('score-'+sco,340,40)
+  if (ly<0)
+    {clearTimeout()
+      }
 
 }
 
