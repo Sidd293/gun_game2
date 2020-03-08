@@ -16,8 +16,8 @@ canvas =  createCanvas(400, 400);
   gun = loadImage('1578401526169.png')
 enemy = loadImage('enemy.png')
 noCursor()
- button = createButton('shoots');
-  button.position(300,410);
+ button = createButton('shoot');
+  button.position(400,40);
   button.size(50,30)
   button.mousePressed(shoot);
 }
@@ -102,10 +102,12 @@ ellipse(200,200,10)
   fill('null')
 text(mouseX,10,10)
   text(mouseY,10,30)
-
-  rect(0,370,ly,20)
+fill(225,0,0)
+  rect(0,385,ly,15)
   ly=ly-.3
-  
+  fill(0)
+  if(ly<0) 
+    break;
 text ('score-'+sco,340,40)
 }
 
