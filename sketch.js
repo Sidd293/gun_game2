@@ -58,7 +58,12 @@ function keyPressed() {
   {
     moovb = true
   }
+   if ((key == 'q') || (key == 'Q')) 
+  {
+    shoot()
+  }
 }
+
 function keyReleased() {
   if ((key == 'W') || (key == 'w')) {
     moovf = false
